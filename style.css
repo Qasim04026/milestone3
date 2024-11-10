@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #e0f7fa; /* Updated background color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Updated text color */
+    margin-bottom: 20px;
+    transition: color 0.3s;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+fieldset {
+    border: 2px solid #00796b; /* Updated border color */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #b2dfdb; /* Updated background color */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #00796b; /* Updated text color */
+    transition: color 0.3s;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #00796b; /* Updated text color */
+    transition: color 0.3s;
+}
+
+input, textarea {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #00796b; /* Updated border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b; /* Updated background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40; /* Updated hover background color */
+}
+
+#resumeOutput {
+    display: none;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #00796b; /* Updated border color */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+#resumeOutput h2 {
+    color: #00796b; /* Updated text color */
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+}
+
+#resumeOutput p, #resumeOutput h3 {
+    color: #00796b; /* Updated text color */
+    margin-bottom: 10px;
+    line-height: 1.6;
+    transition: color 0.3s;
+}
+
+#profilePicturePreview {
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 2px solid #00796b; /* Updated border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #004d40; /* Updated dark mode background color */
+    color: #e0f7fa; /* Updated dark mode text color */
+}
+
+body.dark-mode h1, 
+body.dark-mode legend, 
+body.dark-mode label, 
+body.dark-mode #resumeOutput h2, 
+body.dark-mode #resumeOutput p, 
+body.dark-mode #resumeOutput h3 {
+    color: #e0f7fa; /* Updated dark mode text color */
+}
+
+body.dark-mode form, 
+body.dark-mode #resumeOutput {
+    background-color: #00695c; /* Updated dark mode background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-color: #004d40; /* Updated dark mode border color */
+}
+
+body.dark-mode fieldset {
+    background-color: #00796b; /* Updated dark mode fieldset background color */
+    border-color: #004d40; /* Updated dark mode fieldset border color */
+}
+
+body.dark-mode input, 
+body.dark-mode textarea, 
+body.dark-mode button {
+    border-color: #004d40; /* Updated dark mode input border color */
+}
+
+body.dark-mode button {
+    background-color: #004d40; /* Updated dark mode button background color */
+}
