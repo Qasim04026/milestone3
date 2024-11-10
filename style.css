@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     padding: 0;
-    background-color: #e0f7fa; /* Updated background color */
+    background-color: #e0f7fa; 
     transition: background-color 0.3s, color 0.3s;
 }
 
 h1 {
     text-align: center;
-    color: #00796b; /* Updated text color */
+    color: #00796b; 
     margin-bottom: 20px;
     transition: color 0.3s;
 }
@@ -24,25 +24,25 @@ form {
 }
 
 fieldset {
-    border: 2px solid #00796b; /* Updated border color */
+    border: 2px solid #00796b; 
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #b2dfdb; /* Updated background color */
+    background-color: #b2dfdb; 
     transition: background-color 0.3s, border-color 0.3s;
 }
 
 legend {
     font-weight: bold;
     text-align: left;
-    color: #00796b; /* Updated text color */
+    color: #00796b; 
     transition: color 0.3s;
 }
 
 label {
     display: block;
     margin-top: 10px;
-    color: #00796b; /* Updated text color */
+    color: #00796b; 
     transition: color 0.3s;
 }
 
@@ -50,7 +50,7 @@ input, textarea {
     width: calc(100% - 16px);
     padding: 10px;
     margin-top: 4px;
-    border: 1px solid #00796b; /* Updated border color */
+    border: 1px solid #00796b; 
     border-radius: 4px;
     box-sizing: border-box;
     transition: border-color 0.3s;
@@ -60,7 +60,7 @@ button {
     display: block;
     width: 100%;
     padding: 12px;
-    background-color: #00796b; /* Updated background color */
+    background-color: #00796b; 
     color: white;
     border: none;
     border-radius: 4px;
@@ -72,7 +72,7 @@ button {
 }
 
 button:hover {
-    background-color: #004d40; /* Updated hover background color */
+    background-color: #004d40; 
 }
 
 #resumeOutput {
@@ -80,7 +80,7 @@ button:hover {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    border: 2px solid #00796b; /* Updated border color */
+    border: 2px solid #00796b; 
     border-radius: 8px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -88,14 +88,14 @@ button:hover {
 }
 
 #resumeOutput h2 {
-    color: #00796b; /* Updated text color */
+    color: #00796b; 
     text-align: center;
     margin-bottom: 20px;
     transition: color 0.3s;
 }
 
 #resumeOutput p, #resumeOutput h3 {
-    color: #00796b; /* Updated text color */
+    color: #00796b; 
     margin-bottom: 10px;
     line-height: 1.6;
     transition: color 0.3s;
@@ -106,15 +106,15 @@ button:hover {
     max-width: 150px;
     border-radius: 50%;
     margin: 20px auto;
-    border: 2px solid #00796b; /* Updated border color */
+    border: 2px solid #00796b; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-/* Dark mode styles */
+
 body.dark-mode {
-    background-color: #004d40; /* Updated dark mode background color */
-    color: #e0f7fa; /* Updated dark mode text color */
+    background-color: #004d40; 
+    color: #e0f7fa; 
 }
 
 body.dark-mode h1, 
@@ -123,27 +123,27 @@ body.dark-mode label,
 body.dark-mode #resumeOutput h2, 
 body.dark-mode #resumeOutput p, 
 body.dark-mode #resumeOutput h3 {
-    color: #e0f7fa; /* Updated dark mode text color */
+    color: #e0f7fa; 
 }
 
 body.dark-mode form, 
 body.dark-mode #resumeOutput {
-    background-color: #00695c; /* Updated dark mode background color */
+    background-color: #00695c; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    border-color: #004d40; /* Updated dark mode border color */
+    border-color: #004d40; 
 }
 
 body.dark-mode fieldset {
-    background-color: #00796b; /* Updated dark mode fieldset background color */
-    border-color: #004d40; /* Updated dark mode fieldset border color */
+    background-color: #00796b; 
+    border-color: #004d40; 
 }
 
 body.dark-mode input, 
 body.dark-mode textarea, 
 body.dark-mode button {
-    border-color: #004d40; /* Updated dark mode input border color */
+    border-color: #004d40; 
 }
 
 body.dark-mode button {
-    background-color: #004d40; /* Updated dark mode button background color */
+    background-color: #004d40; 
 }
